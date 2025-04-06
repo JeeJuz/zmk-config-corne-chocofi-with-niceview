@@ -35,16 +35,16 @@
 &trans  &kp N1    &kp N2  &kp N3    &kp N4        &kp N5     &kp F1       &kp F2   &kp F3   &kp F4   &kp C_VOLUME_UP    &trans
 &trans  &kp N6    &kp N7  &kp N8    &kp N9        &kp N0     &kp F5       &kp F6   &kp F7   &kp F8   &kp C_VOLUME_DOWN  &trans
 &trans  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT     &kp TAB    &kp F9       &kp F10  &kp F11  &kp F12  &kp C_MUTE         &trans
-                          &kp AT    &kp LEFT_WIN  &kp ESC    &kp RA(TAB)  &mo 2    &trans
+                          &kp AT    &kp LEFT_WIN  &kp ESC    &kp RA(TAB)  &tog 2   &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp LALT  &kp TAB  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans   &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LALT  &kp TAB  &trans        &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LBKT  &kp RBKT  &trans  &trans
+&trans  &trans    &trans   &trans        &trans  &trans    &trans                &trans                 &kp SEMI  &kp APOS  &trans  &trans
+&trans  &trans    &trans   &kp NUMBER_1  &trans  &trans    &trans                &kp COMMA              &kp DOT   &kp FSLH  &trans  &trans
+                           &trans        &trans  &trans    &trans                &trans                 &trans
             >;
         };
     };
